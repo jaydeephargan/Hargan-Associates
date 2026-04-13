@@ -45,7 +45,7 @@ const ContactPage = () => {
             Contact <span className="text-gold">Us</span>
           </h1>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
-            Get in touch with Hargan & Associates for expert legal and taxation consultation.
+            Get in touch with Hargan Associates for expert legal and taxation consultation.
           </p>
         </motion.div>
       </section>
@@ -60,7 +60,7 @@ const ContactPage = () => {
         >
           {/* Info */}
           <motion.div variants={fadeUp}>
-            <h2 className="font-display font-semibold text-primary text-2xl mb-1">Hargan & Associates</h2>
+            <h2 className="font-display font-semibold text-primary text-2xl mb-1">Hargan Associates</h2>
             <p className="text-muted-foreground text-sm mb-1">Advocate | TaxFinLegal Solution</p>
             <p className="text-gold font-medium text-sm italic mb-6">Your Trust is Our Wealth</p>
 

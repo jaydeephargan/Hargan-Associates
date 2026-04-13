@@ -23,7 +23,7 @@ const Header = () => {
       <div className="bg-navy text-primary-foreground text-sm hidden md:block">
         <div className="container flex justify-between items-center py-2">
           <span className="font-display font-semibold tracking-wide">
-            Hargan & Associates – Advocate | TaxFinLegal Solution | <span className="text-gold italic">Your Trust is Our Wealth</span>
+            Hargan Associates – Advocate | TaxFinLegal Solution | <span className="text-gold italic">Your Trust is Our Wealth</span>
           </span>
           <div className="flex items-center gap-6">
             <a href="mailto:advjbhoffice@gmail.com" className="flex items-center gap-1.5 hover:text-gold transition-colors">
@@ -40,9 +40,9 @@ const Header = () => {
       <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b shadow-sm">
         <div className="container flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="Hargan & Associates Logo" className="w-10 h-10 object-contain rounded-full p-1" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }} />
+            <img src={logo} alt="Hargan Associates Logo" className="w-10 h-10 object-contain rounded-full p-1" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }} />
             <div className="hidden sm:block leading-tight">
-              <span className="font-display font-semibold text-primary text-lg block">Hargan & Associates</span>
+              <span className="font-display font-semibold text-primary text-lg block">Hargan Associates</span>
               <span className="text-[10px] text-muted-foreground tracking-wide block">Advocate | TaxFinLegal Solution</span>
               <span className="text-[9px] text-gold italic tracking-wide">Your Trust is Our Wealth</span>
             </div>

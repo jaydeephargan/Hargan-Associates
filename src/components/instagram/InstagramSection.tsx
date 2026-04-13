@@ -134,7 +134,7 @@ const InstagramSection = () => {
               "@type": "SocialMediaPosting",
               author: {
                 "@type": "Organization",
-                name: "Hargan & Associates",
+                name: "Hargan Associates",
                 url: `https://instagram.com/${INSTAGRAM_HANDLE}`,
               },
               sharedContent: posts.slice(0, 5).map((p) => ({

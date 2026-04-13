@@ -8,9 +8,9 @@ const Footer = () => (
       <div className="grid md:grid-cols-4 gap-8">
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <img src={logo} alt="Hargan & Associates Logo" className="w-10 h-10 object-contain rounded-full p-1" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }} />
+            <img src={logo} alt="Hargan Associates Logo" className="w-10 h-10 object-contain rounded-full p-1" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }} />
             <div>
-              <span className="font-display font-semibold text-lg block">Hargan & Associates</span>
+              <span className="font-display font-semibold text-lg block">Hargan Associates</span>
               <span className="text-[10px] text-primary-foreground/70 tracking-wide block">Advocate | TaxFinLegal Solution</span>
               <span className="text-[9px] text-gold tracking-wide italic">Your Trust is Our Wealth</span>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-primary-foreground/10 mt-10 pt-6 text-center text-sm text-primary-foreground/50">
-        © {new Date().getFullYear()} Hargan & Associates. All rights reserved.
+        © {new Date().getFullYear()} Hargan Associates. All rights reserved.
       </div>
     </div>
   </footer>

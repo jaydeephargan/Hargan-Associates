@@ -7,7 +7,7 @@ CREATE TABLE public.blog_posts (
   category text NOT NULL DEFAULT 'General',
   image_url text,
   published boolean NOT NULL DEFAULT false,
-  author text DEFAULT 'Hargan & Associates',
+  author text DEFAULT 'Hargan Associates',
   created_at timestamp with time zone NOT NULL DEFAULT now(),
   updated_at timestamp with time zone NOT NULL DEFAULT now()
 );

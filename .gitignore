@@ -25,3 +25,8 @@ dist-ssr
 .nvmrc
 .nvmrc
 .nvmrc
+index.html
+index.html
+src/components/AIChatbot.tsx
+src/components/Footer.tsx
+src/components/AIChatbot.tsx

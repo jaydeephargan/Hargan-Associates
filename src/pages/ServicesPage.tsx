@@ -94,7 +94,7 @@ const ServicesPage = () => (
         <h1 className="text-3xl md:text-4xl font-display font-bold mb-2">
           Our <span className="text-gold">Services</span>
         </h1>
-        <p className="text-primary-foreground/80 text-sm mb-1">Hargan & Associates – Advocate | TaxFinLegal Solution</p>
+        <p className="text-primary-foreground/80 text-sm mb-1">Hargan Associates – Advocate | TaxFinLegal Solution</p>
         <p className="text-primary-foreground/70 max-w-2xl mx-auto">
           Comprehensive legal, taxation, and business solutions tailored to your needs.
         </p>

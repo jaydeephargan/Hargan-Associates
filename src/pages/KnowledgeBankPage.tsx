@@ -144,7 +144,7 @@ const KnowledgeBankPage = () => {
           <h1 className="text-3xl md:text-4xl font-display font-bold mb-2">
             Knowledge <span className="text-gold">Bank</span>
           </h1>
-          <p className="text-primary-foreground/80 text-sm mb-1">Hargan & Associates – Advocate | TaxFinLegal Solution</p>
+          <p className="text-primary-foreground/80 text-sm mb-1">Hargan Associates – Advocate | TaxFinLegal Solution</p>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
             Access legal documents, tax resources, government links, and downloadable formats.
           </p>

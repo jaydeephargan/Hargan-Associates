@@ -24,7 +24,7 @@ const whyUs = [
 ];
 
 const testimonials = [
-  { name: "Rajesh Patel", role: "Startup Founder", text: "Hargan & Associates handled our company incorporation and GST registration flawlessly. Highly professional team!" },
+  { name: "Rajesh Patel", role: "Startup Founder", text: "Hargan Associates handled our company incorporation and GST registration flawlessly. Highly professional team!" },
   { name: "Priya Sharma", role: "Business Owner", text: "Excellent tax planning advice that saved us significantly. Their knowledge of current laws is impressive." },
   { name: "Amit Desai", role: "Import/Export Business", text: "From IEC registration to compliance, they've been our trusted partners for over 3 years now." },
 ];
@@ -82,7 +82,7 @@ const HomePage = () => (
         <div className="md:w-1/4 relative flex items-center justify-center overflow-hidden" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }}>
           <img
             src={logo}
-            alt="Hargan & Associates Logo"
+            alt="Hargan Associates Logo"
             className="w-48 h-48 md:w-56 md:h-56 object-contain opacity-10 absolute"
           />
           <motion.img
@@ -90,7 +90,7 @@ const HomePage = () => (
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
             src={logo}
-            alt="Hargan & Associates Logo"
+            alt="Hargan Associates Logo"
             className="w-28 h-28 md:w-36 md:h-36 object-contain relative z-10"
           />
         </div>
@@ -108,7 +108,7 @@ const HomePage = () => (
       <div className="container">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-display font-semibold text-primary mb-4">
-            About <span className="text-gold">Hargan & Associates</span>
+            About <span className="text-gold">Hargan Associates</span>
           </h2>
           <p className="text-foreground/70 leading-relaxed">
             Founded by Adv. Jaydeep B. Hargan, we are a comprehensive legal and taxation consultancy providing
@@ -172,7 +172,7 @@ const HomePage = () => (
           viewport={{ once: true }}
           variants={fadeUp}
         >
-          Why Choose <span className="text-gold">Hargan & Associates</span>
+          Why Choose <span className="text-gold">Hargan Associates</span>
         </motion.h2>
         <motion.div
           className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto"

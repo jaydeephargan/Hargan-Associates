@@ -33,7 +33,7 @@ const AboutPage = () => (
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
           src={logo}
-          alt="Hargan & Associates Logo"
+          alt="Hargan Associates Logo"
           className="w-28 h-28 md:w-36 md:h-36 object-contain rounded-full p-3" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }}
         />
         <motion.div
@@ -43,7 +43,7 @@ const AboutPage = () => (
           className="text-center md:text-left"
         >
           <h1 className="text-3xl md:text-4xl font-display font-bold mb-2">
-            <span className="text-gold">Hargan & Associates</span>
+            <span className="text-gold">Hargan Associates</span>
           </h1>
           <p className="text-primary-foreground/80 text-sm mb-1">Advocate | TaxFinLegal Solution</p>
           <p className="text-gold italic text-sm mb-4">Your Trust is Our Wealth</p>
@@ -64,7 +64,7 @@ const AboutPage = () => (
     >
       <div className="container max-w-4xl">
         <p className="text-foreground/70 leading-relaxed text-lg text-center">
-          Hargan & Associates is a premier legal and taxation consultancy firm offering end-to-end solutions
+          Hargan Associates is a premier legal and taxation consultancy firm offering end-to-end solutions
           in litigation, compliance, business registration, financial advisory, and more. With a commitment
           to excellence, integrity, and client satisfaction, we have established ourselves as a go-to firm
           for startups, SMEs, and individuals across India.

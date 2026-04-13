@@ -13,7 +13,7 @@ const faqs = [
 const AIChatbot = () => {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<{ role: "user" | "bot"; text: string }[]>([
-    { role: "bot", text: "Hello! I'm the Hargan & Associates assistant. How can I help you today? You can ask about GST, income tax, legal services, or book a consultation." },
+    { role: "bot", text: "Hello! I'm the Hargan Associates assistant. How can I help you today? You can ask about GST, income tax, legal services, or book a consultation." },
   ]);
   const [input, setInput] = useState("");
 

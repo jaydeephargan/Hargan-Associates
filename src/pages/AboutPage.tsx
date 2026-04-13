@@ -45,7 +45,7 @@ const AboutPage = () => (
           <h1 className="text-3xl md:text-4xl font-display font-bold mb-2">
             <span className="text-gold">Hargan Associates</span>
           </h1>
-          <p className="text-primary-foreground/80 text-sm mb-1">Advocate | TaxFinLegal Solution</p>
+          <p className="text-primary-foreground/80 text-sm mb-1">Advocate | TaxFinLegal Consultant</p>
           <p className="text-gold italic text-sm mb-4">Your Trust is Our Wealth</p>
           <p className="text-primary-foreground/70 max-w-2xl">
             A trusted legal and taxation consultancy providing comprehensive solutions for businesses and individuals.

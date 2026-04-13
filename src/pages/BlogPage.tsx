@@ -69,7 +69,7 @@ const BlogPage = () => {
           <h1 className="text-3xl md:text-4xl font-display font-bold mb-2">
             Legal & Tax <span className="text-gold">Blog</span>
           </h1>
-          <p className="text-primary-foreground/80 text-sm mb-1">Hargan Associates – Advocate | TaxFinLegal Solution</p>
+          <p className="text-primary-foreground/80 text-sm mb-1">Hargan Associates – Advocate | TaxFinLegal Consultant</p>
           <p className="text-primary-foreground/70 max-w-2xl mx-auto">
             Insights, updates, and expert analysis on legal and tax matters.
           </p>

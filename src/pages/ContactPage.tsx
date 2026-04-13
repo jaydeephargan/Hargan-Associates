@@ -61,7 +61,7 @@ const ContactPage = () => {
           {/* Info */}
           <motion.div variants={fadeUp}>
             <h2 className="font-display font-semibold text-primary text-2xl mb-1">Hargan Associates</h2>
-            <p className="text-muted-foreground text-sm mb-1">Advocate | TaxFinLegal Solution</p>
+            <p className="text-muted-foreground text-sm mb-1">Advocate | TaxFinLegal Consultant</p>
             <p className="text-gold font-medium text-sm italic mb-6">Your Trust is Our Wealth</p>
 
             <div className="space-y-4 mb-8">

@@ -11,7 +11,7 @@ const Footer = () => (
             <img src={logo} alt="Hargan Associates Logo" className="w-10 h-10 object-contain rounded-full p-1" style={{ backgroundColor: 'hsl(42, 50%, 92%)' }} />
             <div>
               <span className="font-display font-semibold text-lg block">Hargan Associates</span>
-              <span className="text-[10px] text-primary-foreground/70 tracking-wide block">Advocate | TaxFinLegal Solution</span>
+              <span className="text-[10px] text-primary-foreground/70 tracking-wide block">Advocate | TaxFinLegal Consultant</span>
               <span className="text-[9px] text-gold tracking-wide italic">Your Trust is Our Wealth</span>
             </div>
           </div>

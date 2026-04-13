@@ -24,9 +24,9 @@ const whyUs = [
 ];
 
 const testimonials = [
-  { name: "Rajesh Patel", role: "Startup Founder", text: "Hargan Associates handled our company incorporation and GST registration flawlessly. Highly professional team!" },
-  { name: "Priya Sharma", role: "Business Owner", text: "Excellent tax planning advice that saved us significantly. Their knowledge of current laws is impressive." },
-  { name: "Amit Desai", role: "Import/Export Business", text: "From IEC registration to compliance, they've been our trusted partners for over 3 years now." },
+  { name: "Smit Patel", role: "Startup Founder", text: "Hargan Associates handled our company incorporation and GST registration flawlessly. Highly professional team!" },
+  { name: "Jigar Baraiya", role: "Business Owner", text: "Excellent tax planning advice that saved us significantly. Their knowledge of current laws is impressive." },
+  { name: "Jignesh Jagad", role: "Import/Export Business", text: "From IEC registration to compliance, they've been our trusted partners for over 3 years now." },
 ];
 
 const fadeUp = {

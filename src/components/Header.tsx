@@ -26,6 +26,9 @@ const Header = () => {
             Hargan Associates – Advocate | TaxFinLegal Consultant | <span className="text-gold italic">Your Trust is Our Wealth</span>
           </span>
           <div className="flex items-center gap-6">
+            <a href="mailto:support@harganassociates.in" className="flex items-center gap-1.5 hover:text-gold transition-colors">
+              <Mail className="w-3.5 h-3.5" /> support@harganassociates.in
+            </a>
             <a href="mailto:advjbhoffice@gmail.com" className="flex items-center gap-1.5 hover:text-gold transition-colors">
               <Mail className="w-3.5 h-3.5" /> advjbhoffice@gmail.com
             </a>

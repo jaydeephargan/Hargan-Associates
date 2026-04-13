@@ -51,6 +51,9 @@ const Footer = () => (
         <div>
           <h4 className="font-display font-semibold text-gold mb-4">Contact</h4>
           <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
+            <a href="mailto:support@harganassociates.in" className="flex items-center gap-2 hover:text-gold transition-colors">
+              <Mail className="w-4 h-4 text-gold" /> support@harganassociates.in
+            </a>
             <a href="mailto:advjbhoffice@gmail.com" className="flex items-center gap-2 hover:text-gold transition-colors">
               <Mail className="w-4 h-4 text-gold" /> advjbhoffice@gmail.com
             </a>

@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Lock, LogIn } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import type { FormEvent } from "react";
 
 const AdminLoginPage = () => {
   const [email, setEmail] = useState("");
@@ -15,18 +16,59 @@ const AdminLoginPage = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
 
-  const handleLogin = async (e: React.FormEvent) => {
+  const handleLogin = async (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    try {
+      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+      if (error) {
+        const msg = error.message || "Unable to sign in.";
+        toast({ title: "Login failed", description: msg, variant: "destructive" });
 
-    setLoading(false);
-    if (error) {
-      toast({ title: "Login failed", description: error.message, variant: "destructive" });
-    } else {
+        if (msg.toLowerCase().includes("email not confirmed")) {
+          const { error: resendError } = await supabase.auth.resend({
+            type: "signup",
+            email,
+          });
+          if (resendError) {
+            toast({
+              title: "Could not resend email",
+              description: resendError.message,
+              variant: "destructive",
+            });
+          } else {
+            toast({
+              title: "Confirmation email sent",
+              description: "Please check your inbox and confirm, then try signing in again.",
+            });
+          }
+        }
+        return;
+      }
+
+      // Occasionally navigation can happen before storage/state settles; confirm we have a session.
+      const session = data.session ?? (await supabase.auth.getSession()).data.session;
+      if (!session) {
+        toast({
+          title: "Login incomplete",
+          description: "Signed in, but no session was created. Please refresh and try again.",
+          variant: "destructive",
+        });
+        return;
+      }
+
       toast({ title: "Welcome back!" });
       navigate("/admin");
+    } catch (err) {
+      console.error("Admin login failed:", err);
+      toast({
+        title: "Login failed",
+        description: "Unexpected error while signing in. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setLoading(false);
     }
   };
 
